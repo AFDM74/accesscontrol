@@ -19,7 +19,7 @@ As this project was forked from another GitHub user, there are still some files 
 This project is forked from the github project from rmiller @ duskglow located at https://github.com/duskglow/accesscontrol. The original software contained herein was designed for controlling access to doors and lockers for the 'Ctrl-h' hackerspace in Portland, OR.
 
 It uses the following submodules:
-- Wiegand Protocol Library from https://github.com/monkeyboard/Wiegand-Protocol-Library-for-Arduino
-- rpi/wiringPi Libray
+- Wiegand Protocol Library (https://github.com/monkeyboard/Wiegand-Protocol-Library-for-Arduino)
+- rpi/wiringPi Libray (http://wiringpi.com/)
 
 Suggestions, Questions and Feedback are really appreciated: me @ decomartins dot com (Yes, my e-mail account is 'me')...
