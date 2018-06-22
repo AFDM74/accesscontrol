@@ -1,20 +1,25 @@
-accesscontrol
+AccessControl
 =============
 
-Access Control System Software
+Door Access Control System Software
 
-This is the software for the access control system created for ctrl-h,
-a hackerspace in Portland, OR.
+This take on a Access Control system is focused in opening doors using a Raspberry Pi, a HID Proxy+ RFI card reader and a relay to trigger the door lock mechanism.
 
-Schematics will be available at some point.  Currently only the code
-is available.
+As this project was forked from another GitHub user, there are still some files that don't matter for my version of this software, but are still present at this time.
 
-Uses the wiegand library from https://github.com/monkeyboard/Wiegand-Protocol-Library-for-Arduino.
+**Currently focused on doing:
+- Debian (raspbian) initialization scripts
+- Modifications to logging system
 
-The contents of the linino directory go into the Yun - preferably on an SD
-card.  Sample JSON config files are provided.
+**I wish/plan to (TO DO):
+- Installation script
+- Add a simple web site to manage cards, reload the AccessControl Service, and check system status.
+- Add a simple Arduino w/ network support to query a remote database.
 
-The contents of the arduino directory go to the atmel chip through the arduino
-IDE.
+This project is forked from the github project from rmiller @ duskglow located at https://github.com/duskglow/accesscontrol. The original software contained herein was designed for controlling access to doors and lockers for the 'Ctrl-h' hackerspace in Portland, OR.
 
-contact rmiller @ duskglow dot com with questions.
+It uses the following submodules:
+- Wiegand Protocol Library from https://github.com/monkeyboard/Wiegand-Protocol-Library-for-Arduino
+- rpi/wiringPi Libray
+
+Suggestions, Questions and Feedback are really appreciated: me @ decomartins dot com (Yes, my e-mail account is 'me')...

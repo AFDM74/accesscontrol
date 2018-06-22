@@ -1,0 +1,11 @@
+**Installation Instructions:
+
+Currently there is no installation script, so you will have to:
+
+1) Copy the scripts/init.d/accesscontrol file to your /etc/init.d/ directory.
+
+2) Copy the rpi/access.py file to the usr/bin/ directory and rename it to accesscontrol.
+
+3) Copy the conf/ folder contents to /etc/accesscontrol/
+
+After that you will need to configure the software. To do this follow rmiller's install instructions inside the rpi/ directory.
